@@ -1,0 +1,229 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-image: url(./Images/textura-pared-ladrillos-blancos_1203-1665.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.splash {
+    background-image: url(./Images/crudite2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 1em;
+    font-size: 24px;
+}
+
+.splash .container {
+    max-width: 25%;
+    margin-right: 8em;
+}
+
+.container {
+    background-color: rgba(222, 200, 197, 0.75);
+    color: #384C4F;
+}
+
+h1, h2 {
+    font-family: 'Rowdies', serif;
+    font-weight: 700;
+    text-align: center;
+    color: #384C4F;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+.bar {
+    background-color: rgb(210, 224, 243);
+    width: 100%;
+    z-index: 1;
+    padding: 0.5rem 0rem;
+    text-align: center;
+}
+
+.bar li {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 4rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #384C4F;
+    
+}
+
+.products {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.products .container {
+    font-size: 20px;
+    margin: 1em;
+}
+
+.products p {
+    font-size: 1em;
+    padding: 0 1em 1em 1em;
+    text-align: center;
+}
+
+.breakfast {
+    background-image: url(./Images/fig\ -\ Copy.jpg);
+    background-size: cover;
+    height: 800px;
+    width: 533px;
+    margin-right: 2em;
+    margin-left: 3em;
+}
+
+.fiesta {
+    background-image: url(./Images/grill.jpg);
+    background-size: cover;
+    height: 800px;
+    width: 533px;
+    margin-right: 2em;
+}
+
+.sweets {
+    background-image: url(./Images/dessert.jpg);
+    background-size: cover;
+    height: 800px;
+    width: 533px;
+    margin-right: 2em;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.mission p {
+    font-size: 1.75em;
+}
+
+.mission {
+    width: 50%;
+    position: relative;
+    left: 25%;
+    margin: 3em;
+}
+
+.mission .container {
+    margin: 1em 1em;
+    padding: 1em;
+}
+
+.about {
+    width: 100%;
+    margin: 4em;
+    font-size: 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-family: 'Rowdies', serif;
+}
+
+.about .container {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-grow: 2;
+}
+
+.container img {
+    max-width: 400px;
+    margin: 2em;
+}
+
+.lena, .sarah {
+    width: 5em;
+    margin: 2em;
+    padding: 1em;
+    width: 20em;
+}
+
+.about p {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+footer {
+    background-color: rgb(210, 224, 243);
+    width: 100%;
+    z-index: 1;
+    padding: 0.3rem 0rem;
+    text-align: center; 
+}
+
+@media only screen and (max-width: 1000px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    
+    h2 {
+        font-size: 0.85em;
+    }
+
+    .splash .container {
+        max-width: 40%;
+        margin-right: 2em;
+    }
+
+    .products {
+        /*flex-wrap: wrap;*/
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .mission {
+        width: 90%;
+        position: relative;
+        left: 5%;
+        margin: 0.5em;
+    }
+
+    .breakfast, .fiesta, .sweets{
+        margin: 2em 1em;
+    }
+
+    .bar {
+        margin-left: 0em;
+    }
+
+    .bar li {
+        font-size: 1em;
+        margin-left: 0em;
+        
+    }
+
+    .about .container {
+        margin-left: 0;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .about {
+        margin-left: 1em;
+    }
+
+    .about img {
+        max-width: 300px;
+    }
+}
